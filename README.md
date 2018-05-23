@@ -26,16 +26,16 @@ git push -u origin master
 
 #### 番号付き
 1. aaaa  
-  1. bbbb  
-  1. bbbb2  
-  1. bbbb3  
+    1. bbbb  
+    1. bbbb2  
+    1. bbbb3  
 1. bbbb
 1. cccc
 1. dddd
-  1. aaaa
+    1. aaaa
     1. aaaa
     1. hhhh
-  1. gggg
+      1. gggg
 1. finish
 
 > 引用  
