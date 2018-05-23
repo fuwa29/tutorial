@@ -3,11 +3,11 @@
 ## gitコマンド
 基本の流れ
 #### 1. staging
-git add (file name)
+> git add (file name)  
 #### 2. commit to master
-git commit -m "comment"
+> git commit -m "comment"  
 #### 3. push remote
-git push -u origin master
+> git push -u origin master  
 
 # 見出し１
 ## 見出し２
