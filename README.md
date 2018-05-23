@@ -2,11 +2,11 @@
 拡張子mdとは、マークダウンのことでした。
 ## gitコマンド
 基本の流れ
-###### 1. staging
+#### 1. staging
 git add (file name)
-###### 2. commit to master
+#### 2. commit to master
 git commit -m "comment"
-###### 3. push remote
+#### 3. push remote
 git push -u origin master
 
 # 見出し１
