@@ -14,10 +14,10 @@ git
 
 #### 箇条書き
 - List 1
- - nest List1
-  - nest2 List1
-  - nest2 List2
- - nest List2
+  - nest List1
+    - nest2 List1
+    - nest2 List2
+    - nest List2
 - List2
 
 > 引用
