@@ -25,10 +25,10 @@ git push -u origin master
 - List2
 
 #### 番号付き
-1. aaaa
-  1. bbbb
-  1. bbbb2
-  1. bbbb3
+1. aaaa  
+  1. bbbb  
+  1. bbbb2  
+  1. bbbb3  
 1. bbbb
 1. cccc
 1. dddd
@@ -38,7 +38,7 @@ git push -u origin master
   1. gggg
 1. finish
 
-> 引用
->> git add (staging)
->> git commit
->> git push origin master
+> 引用  
+>> git add (staging)  
+>> git commit  
+>> git push origin master  
