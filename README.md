@@ -9,6 +9,21 @@
 #### 3. push remote
 > git push -u origin master  
 
+## リモートとローカルの設定
+1. Create remote repository  
+githubで作成  
+1. init local repository  
+対象ディレクトリに移動してから以下実行
+> git init  
+
+1. add remote  
+local側でリモート設定  
+> git  remote add <repo_name> <url>  
+> (例）git remote add origin gti@github.com/fuwa29/tutorial.git  
+
+	確認
+> git remote -v
+
 # 見出し１
 ## 見出し２
 ### 見出し３
