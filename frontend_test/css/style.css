@@ -12,3 +12,46 @@ body {
 h1 {
 	color: #FFFFFF;	
 }
+td {
+	color: #FFFFFF;
+}
+table.maintable {
+	width:  400px;  /* 表の幅 */
+	height: 800px;  /* 表の高さ */
+	margin-left: auto;
+	margin-right: auto;
+}
+table.testtable {
+	width:  200px;  /* 表の幅 */
+	height: 400px;  /* 表の高さ */
+	margin-left: auto;
+	margin-right: auto;
+}
+td {
+	width: 10%; /* セルのはば : 400px x 0.10 = 40 */
+	height: 5%; /* セルの高さ : 800px x 0.05 = 40 */
+	background-color: #455A64; /* 背景色 */
+}
+
+/* Tetromino 7 pattern */
+.i {
+	background-color: #00BCD4; /* cyan */
+  }
+.o {
+	background-color: #FFEB3B; /* yellow */
+}
+.t {
+	background-color: #9C27B0; /* purple */
+}
+.s {
+	background-color: #4CAF50; /* green */
+}
+.z {
+	background-color: #F44336; /* red */
+}
+.j {
+	background-color: #2196F3; /* blue */
+}
+.l {
+	background-color: #FF9800; /* orange */
+}
