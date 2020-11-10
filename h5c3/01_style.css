@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.breadcrumbs {
+	display: flex; /* Flexbox 横並びにできる */
+	width: 900px;
+	padding: 1em;
+	background-color: bisque;
+}
+
+.box {
+	display: flex; /* Flexbox 横並びにできる */
+/*
+	flex-direction: row-reverse;
+*/
+/*
+	justify-content: flex-start;
+	justify-content: flex-end;
+	justify-content: space-around;
+	justify-content: space-between;
+*/
+	justify-content: center;
+	border-top: 5px solid #ff0000;
+	border-bottom: 1em solid #ffff00;
+	border-right: 1em solid #00ffff;
+	border-left: 1em solid #00ff00;
+}
+.item {
+	width: 100px;
+	height: 5em;
+	padding: 5px;
+	margin: 1px;
+	background: #cccccc;
+}
+
+div,p {
+	text-align: center;
+}

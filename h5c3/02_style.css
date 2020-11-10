@@ -1,0 +1,50 @@
+@charset "UTF-8";
+header {
+/*	margin-top: 100px; */
+	padding-top: 10px;
+	width: 970px;
+	height: 100px;
+/*	padding: 5px; */
+	background: #deffd8;
+}
+
+.container {
+	display: flex;
+}
+
+
+main {
+	margin-top: 100px;
+	padding-top: 100px;
+	width: 600px;
+	height: 100px;
+/*	padding: 5px; */
+	background: #00ff00;
+}
+
+aside {
+	width: 370px;
+	height: 100px;
+/*	padding: 5px; */
+	background: #00ffff;
+}
+
+footer {
+	width: 970px;
+	height: 100px;
+/*	padding: 5px; */
+	background: #ffee33;
+}
+
+p {
+	border: 1px solid #cccccc;
+	padding: 10px;
+}
+
+a {
+	background: #cccccc;
+}
+
+p.linkarea a {
+	display: block;
+}
