@@ -2,25 +2,25 @@ class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello World!!");
 
-        // ƒIƒuƒWƒFƒNƒg‚ğnew‚Å¶¬‚µ‚È‚¢‚Æg‚¦‚È‚¢ƒƒ\ƒbƒh
+        // ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½ï¿½newï¿½Åï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ægï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½\ï¿½bï¿½h
         HelloTest var = new HelloTest();
         var.testprint_no_static();
 
-        HelloTest.testprint_no_static();
+        //HelloTest.testprint_no_static();
 
-        // ƒIƒuƒWƒFƒNƒg‚ğ¶¬‚µ‚È‚­‚Ä‚à—˜—p‰Â”\
+        // ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½ğ¶ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½pï¿½Â”\
         HelloTest.testprint_static();
     }
 }
 
 class HelloTest {
 
-    // static ‚È‚µ
+    // static ï¿½È‚ï¿½
     public void testprint_no_static() {
         System.out.println("+-+-+- Hello World!! in HelloTest !!!  method no-static.");
     }
 
-    // static •t‚«
+    // static ï¿½tï¿½ï¿½
     public static void testprint_static() {
         System.out.println("****** Hello World!! in HelloTest !!!  method static. ");
     }
