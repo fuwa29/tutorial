@@ -34,14 +34,17 @@ local側でリモート設定
 ## ローカルのファイルをGitHubに管理開始する
 ソースを先に作成してしまってから、後からgitに登録したいなと思った時の方法メモ
 1. 当該dirで 
-    > git init
+> git init
+
 1. リモートリポジトリの設定
-    > git remote add origin https://(github)/ユーザ名/リポジトリ名.git
+> git remote add origin https://(github)/ユーザ名/リポジトリ名.git
+
 1. gitにファイルを追加
-    > git add *.*
-    > git commmit -m 'コメント'
+> git add *.*
+> git commmit -m 'コメント'
+
 1. リモートリポジトリにプッシュ
-    > git push origin master
+> git push origin master
 
 
 # 以下はmarkdown記法のサンプル
