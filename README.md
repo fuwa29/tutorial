@@ -24,6 +24,27 @@ local側でリモート設定
 	確認
 > git remote -v
 
+# vscodeでGitHubからリポジトリをクローンして利用する
+## GitHub上のリポジトリを複製する
+- コマンドパレット開く
+- gitctl （Git Cloneを選ぶ）
+- GitHub上のリポジトリのurlをセット
+- クローンを保管したいローカルPC上のフォルダを選択
+
+## ローカルのファイルをGitHubに管理開始する
+ソースを先に作成してしまってから、後からgitに登録したいなと思った時の方法メモ
+1. 当該dirで 
+    > git init
+1. リモートリポジトリの設定
+    > git remote add origin https://(github)/ユーザ名/リポジトリ名.git
+1. gitにファイルを追加
+    > git add *.*
+    > git commmit -m 'コメント'
+1. リモートリポジトリにプッシュ
+    > git push origin master
+
+
+# 以下はmarkdown記法のサンプル
 # 見出し１
 ## 見出し２
 ### 見出し３
